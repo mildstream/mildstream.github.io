@@ -1,0 +1,96 @@
+body, html{
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+/* html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.tab {
+    background-color: rgb(244, 224, 135);
+}
+.tab:hover {
+    background-color: rgb(164, 225, 178);
+}
+
+.tabbed {
+    background-color: rgb(201, 227, 207);
+    border-bottom: 2px solid black;
+}
+
+#box1 {
+    flex-grow: 1;
+    flex-basis: 100px;
+    width: 100px;
+    height: 10vh;
+    /* height: 100px; */
+    /* background-color: antiquewhite; */
+    /* margin-left: 20px; */
+    display: inline-block;
+    /* border-bottom-color: rgb(208, 206, 235);
+    border-right-color: antiquewhite; */
+}
+#box2 {
+    flex-grow: 1;
+    flex-basis: 100px;
+    width: 100px;
+    height: 10vh;
+    /* background-color: rgb(215, 250, 231); */
+    display: inline-block;
+}
+#box3 {
+    flex-grow: 1;
+    flex-basis: 100px;
+    width: 100px;
+    height: 10vh;
+    /* background-color: rgb(215, 250, 231); */
+    /* border: 2px solid black; */
+    /* margin-right: 20px; */
+    display: inline-block;
+}
+
+.content {
+    flex-grow: 1;
+    /* width: 300px; */
+    height: 100%;
+    background-color: rgb(201, 227, 207);
+    /* border: 2px solid black; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    /* margin: 20px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* border-top: none; */
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 1.2;
+    padding: 15px;
+}
+
+.display {
+    display: block;
+}
+
